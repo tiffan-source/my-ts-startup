@@ -1,0 +1,22 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "A simple TypeScript template for Node.js projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiffan-source/my-ts-startup.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "typescript",
+    "node",
+    "template",
+    "starter"
+  ],
+  "author": "blackgenius",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
