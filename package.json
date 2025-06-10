@@ -2,12 +2,17 @@
   "name": "ts-template",
   "version": "1.0.0",
   "description": "A simple TypeScript template for Node.js projects",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/tiffan-source/my-ts-startup.git"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix",
+    "prepare": "husky"
+  },
   "keywords": [
     "typescript",
     "node",
@@ -16,7 +21,11 @@
   ],
   "author": "blackgenius",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.8.3"
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "husky": "^9.1.7",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.0"
   }
 }
