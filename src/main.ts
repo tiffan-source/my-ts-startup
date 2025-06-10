@@ -1,5 +1,6 @@
 export default class SayHello {
-   sayHello() {
+   sayHello(): boolean {
       console.log("Hello, world!");
+      return true;
    }
 }
