@@ -1,5 +1,5 @@
 export default class SayHello {
-  sayHello() {
-    console.log('Hello, world!')
-  }
+   sayHello() {
+      console.log("Hello, world!");
+   }
 }
