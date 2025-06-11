@@ -12,7 +12,7 @@
       "lint": "npx eslint --fix",
       "format": "npx prettier --write .",
       "format:check": "npx prettier --check .",
-      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --passWithNoTests",
+      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
       "test:watch": "npm run test -- --watch",
       "test:coverage": "npm run test -- --coverage",
       "test:debug": "npm run test -- --runInBand --detectOpenHandles --forceExit",
