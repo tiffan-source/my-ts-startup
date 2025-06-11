@@ -9,7 +9,6 @@ export default {
       ...tsJestTransformCfg,
    },
    collectCoverage: true,
-   coverageDirectory: "coverage",
+   coverageDirectory: "./coverage",
    collectCoverageFrom: ["src/**/*.ts"],
-   rootDir: "./tests",
 };

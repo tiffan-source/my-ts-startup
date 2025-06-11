@@ -37,7 +37,11 @@
       /* If your code doesn't run in the DOM: */
       "lib": ["es2022"],
 
-      /* Other Options: */
-      "baseUrl": "./src"
-   }
+   },
+   "include": [
+      "src/**/*.ts",
+   ],
+   "exclude": [
+      "tests/**/*.ts",
+   ]
 }
